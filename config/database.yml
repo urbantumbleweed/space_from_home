@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: space_from_home_development
   pool: 5
-  username: space_from_home
+  username: stephensaunders
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: space_from_home_test
   pool: 5
-  username: space_from_home
+  username: stephensaunders
   password:
 
 production:
@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: space_from_home_production
   pool: 5
-  username: space_from_home
+  username: stephensaunders
   password:

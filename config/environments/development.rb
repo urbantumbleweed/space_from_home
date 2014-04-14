@@ -26,4 +26,14 @@ SpaceFromHome::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+  ENV['GOOGLE_API_KEY'] = 'AIzaSyAH38Ev4_oSahxXzn27tEcaA1fUmLwZRr8'
+  ENV['CUSTOM_SEARCH_ID'] = '008746174364381669212:aznfrmyxwcq'
+
+
+  AlchemyAPI.key = '4a7739e43a9d73c15ac064f5cff7ce44a5b7b229'
+  AlchemyAPI.configure do |config|
+    config.apikey = '4a7739e43a9d73c15ac064f5cff7ce44a5b7b229'
+    config.output_mode = :xml # not yet supported
+  end
+
 end

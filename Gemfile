@@ -43,3 +43,6 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'alchemy-api-rb', :require => 'alchemy_api'
+gem 'geocoder'
